@@ -4,7 +4,7 @@
 
 # Personal Portfolio Site
 
-This website is used to showcase my work, involvement in extracirriculars, and projects.
+This website is used to showcase my work, involvement in extracurriculars, and projects.
 
 Site location:
 [ratik.me](https://ratik.me)
