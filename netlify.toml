@@ -49,3 +49,15 @@
   to = "https://versa-networks.com/documents/datasheets/versa-secure-access.pdf"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/biobox"
+  to = "https://github.com/RatikKapoor/covid-test"
+  status = 302
+  force = true
+  
+[[redirects]]
+  from = "https://ratik.me/git"
+  to = "https://github.com/RatikKapoor"
+  status = 302
+  force = true
