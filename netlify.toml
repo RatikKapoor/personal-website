@@ -25,3 +25,9 @@
 
 [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://ratik.me/card"
+  to = "https://ratik.me/blog/esscardreader/"
+  status = 302
+  force = true #COMMENT: ensure that we always redirect
