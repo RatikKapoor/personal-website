@@ -43,3 +43,9 @@
   to = "https://github.com/relectric-car-team/canbus-mcu-base"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/vsa"
+  to = "https://versa-networks.com/documents/datasheets/versa-secure-access.pdf"
+  status = 302
+  force = true
