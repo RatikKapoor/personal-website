@@ -67,3 +67,9 @@
   to = "https://github.com/RatikKapoor/mayker-space"
   status = 302
   force = true
+
+[[redirects]]
+  from = "https://ratik.me/mayker"
+  to = "https://github.com/RatikKapoor/mayker-space"
+  status = 302
+  force = true
