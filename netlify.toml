@@ -79,3 +79,21 @@
   to = "https://github.com/March-27-Hackathon/supply-chain-management-RatikKapoor"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/cbc"
+  to = "https://www.cbc.ca/news/canada/calgary/u-of-c-students-electric-car-conversions-1.5764374"
+  status = 302
+  force = true
+  
+[[redirects]]
+  from = "https://ratik.me/radio"
+  to = "https://www.cbc.ca/listen/live-radio/1-97/clip/15803332"
+  status = 302
+  force = true
+  
+[[redirects]]
+  from = "https://ratik.me/herald"
+  to = "https://calgaryherald.com/news/local-news/volts-under-the-hood-u-of-c-team-wants-to-make-electric-car-conversions-easier"
+  status = 302
+  force = true
