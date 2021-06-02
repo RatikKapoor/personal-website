@@ -97,3 +97,15 @@
   to = "https://calgaryherald.com/news/local-news/volts-under-the-hood-u-of-c-team-wants-to-make-electric-car-conversions-easier"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/distance-sensors"
+  to = "https://github.com/relectric-car-team/mcu-canbus-distance-sensor"
+  status = 302
+  force = true
+  
+[[redirects]]
+  from = "https://ratik.me/e-volvo"
+  to = "https://teamrelectric.ca/cars/e-volvo/"
+  status = 302
+  force = true
