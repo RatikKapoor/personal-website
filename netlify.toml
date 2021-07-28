@@ -109,3 +109,9 @@
   to = "https://teamrelectric.ca/cars/e-volvo/"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/covid"
+  to = "https://www.nature.com/articles/s41598-021-92677-z"
+  status = 302
+  force = true
