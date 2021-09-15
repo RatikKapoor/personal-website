@@ -115,3 +115,9 @@
   to = "https://www.nature.com/articles/s41598-021-92677-z"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "https://ratik.me/ai-cert"
+  to = "https://www.credly.com/badges/fdce465e-6fd0-4f2c-b6ca-91430871fa29?source=linked_in_profile"
+  status = 302
+  force = true
