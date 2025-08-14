@@ -121,3 +121,9 @@
   to = "https://www.credly.com/badges/fdce465e-6fd0-4f2c-b6ca-91430871fa29?source=linked_in_profile"
   status = 302
   force = true
+
+[[redirects]]
+  from = "https://ratik.me/patent"
+  to = "https://patents.google.com/patent/US11915019B2"
+  status = 302
+  force = true
