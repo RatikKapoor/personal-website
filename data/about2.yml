@@ -1,10 +1,18 @@
-enable : true
-image : images/about/about-business-man.jpg
-title : Nice to meet you, I'm Ratik
-description : I'm an electrical engineering student at the Schulich School of Engineering who is passionate about using technology to inspire change in the world around me. I love all things related to computers, especially microcontrollers, networking, and computer hardware. Experienced in C, C++, Python, HTML, and CSS with current projects being used in the Engineering Students' Society at the University of Calgary.
-description2 : Fluent in bash scripting with experience in embedded OS and kernel development with an interest in IoT devices. Minoring in Computer Engineering with an upcoming focus in artificial intelligence, machine learning, and networking.
+enable: true
+image: images/about/about-business-man.png
+title: Nice to meet you, I'm Ratik
+description: I'm a software engineer in the Bay Area who is passionate about
+  using technology to inspire change in the world around me.
+  I love all things related to computers, especially supercomputing,
+  networking, and compute infrastructure. Experienced in Go, Python, Rust,
+  React, TypeScript, C++, with current projects being used in companies like
+  Tesla and Versa Networks.
+description2:
+  Fluent in distributed system development with experience in Linux OS and
+  kernel development with an interest in IoT devices. Minoring in Computer Engineering with an
+  upcoming focus in artificial intelligence, machine learning, and networking.
 
-aboutItem :
+aboutItem:
   # - icon : tf-circle-compass
   #   #title : Software
   #   #content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
