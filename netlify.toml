@@ -1,129 +1,129 @@
 [build]
-    publish = "public"
-    command = "hugo --gc --minify"
+publish = "public"
+command = "hugo --gc --minify"
 
 [context.production.environment]
-    HUGO_VERSION = "0.63.2"
-    HUGO_ENV = "production"
-    HUGO_ENABLEGITINFO = "true"
+HUGO_VERSION = "0.63.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
 
 [context.split1.environment]
-    HUGO_VERSION = "0.63.2"
-    HUGO_ENV = "production"
+HUGO_VERSION = "0.63.2"
+HUGO_ENV = "production"
 
 [context.deploy-preview]
-    command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-    HUGO_VERSION = "0.63.2"
+HUGO_VERSION = "0.63.2"
 
 [context.branch-deploy]
-    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-    HUGO_VERSION = "0.63.2"
+HUGO_VERSION = "0.63.2"
 
 [context.next.environment]
-    HUGO_ENABLEGITINFO = "true"
+HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://ratik.me/card"
-  to = "https://ratik.me/blog/esscardreader/"
-  status = 302
-  force = true
+from = "https://ratik.me/card"
+to = "https://ratik.me/blog/esscardreader/"
+status = 302
+force = true
 
 [[redirects]]
-  from = "https://ratik.me/hub"
-  to = "https://github.com/RatikKapoor/ess-schulichhub"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/canbus-mcu"
-  to = "https://github.com/relectric-car-team/canbus-mcu-base"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/vsa"
-  to = "https://versa-networks.com/documents/datasheets/versa-secure-access.pdf"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/biobox"
-  to = "https://github.com/RatikKapoor/covid-test"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/git"
-  to = "https://github.com/RatikKapoor"
-  status = 302
-  force = true
+from = "https://ratik.me/hub"
+to = "https://github.com/RatikKapoor/ess-schulichhub"
+status = 302
+force = true
 
 [[redirects]]
-  from = "https://ratik.me/maykerspace"
-  to = "https://github.com/RatikKapoor/mayker-space"
-  status = 302
-  force = true
+from = "https://ratik.me/canbus-mcu"
+to = "https://github.com/relectric-car-team/canbus-mcu-base"
+status = 302
+force = true
 
 [[redirects]]
-  from = "https://ratik.me/mayker"
-  to = "https://github.com/RatikKapoor/mayker-space"
-  status = 302
-  force = true
+from = "https://ratik.me/vsa"
+to = "https://versa-networks.com/documents/datasheets/versa-secure-access.pdf"
+status = 302
+force = true
 
 [[redirects]]
-  from = "https://ratik.me/ensf409"
-  to = "https://github.com/March-27-Hackathon/supply-chain-management-RatikKapoor"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/cbc"
-  to = "https://www.cbc.ca/news/canada/calgary/u-of-c-students-electric-car-conversions-1.5764374"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/radio"
-  to = "https://www.cbc.ca/listen/live-radio/1-97/clip/15803332"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/herald"
-  to = "https://calgaryherald.com/news/local-news/volts-under-the-hood-u-of-c-team-wants-to-make-electric-car-conversions-easier"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/distance-sensors"
-  to = "https://github.com/relectric-car-team/mcu-canbus-distance-sensor"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/e-volvo"
-  to = "https://teamrelectric.ca/cars/e-volvo/"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/covid"
-  to = "https://www.nature.com/articles/s41598-021-92677-z"
-  status = 302
-  force = true
-  
-[[redirects]]
-  from = "https://ratik.me/ai-cert"
-  to = "https://www.credly.com/badges/fdce465e-6fd0-4f2c-b6ca-91430871fa29?source=linked_in_profile"
-  status = 302
-  force = true
+from = "https://ratik.me/biobox"
+to = "https://github.com/RatikKapoor/covid-test"
+status = 302
+force = true
 
 [[redirects]]
-  from = "https://ratik.me/patent"
-  to = "https://patents.google.com/patent/US11915019B2"
-  status = 302
-  force = true
+from = "https://ratik.me/git"
+to = "https://github.com/RatikKapoor"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/maykerspace"
+to = "https://github.com/RatikKapoor/mayker-space"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/mayker"
+to = "https://github.com/RatikKapoor/mayker-space"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/ensf409"
+to = "https://github.com/March-27-Hackathon/supply-chain-management-RatikKapoor"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/cbc"
+to = "https://www.cbc.ca/news/canada/calgary/u-of-c-students-electric-car-conversions-1.5764374"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/radio"
+to = "https://www.cbc.ca/listen/live-radio/1-97/clip/15803332"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/herald"
+to = "https://calgaryherald.com/news/local-news/volts-under-the-hood-u-of-c-team-wants-to-make-electric-car-conversions-easier"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/distance-sensors"
+to = "https://github.com/relectric-car-team/mcu-canbus-distance-sensor"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/e-volvo"
+to = "https://ratik.me/blog/e-volvo/"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/covid"
+to = "https://www.nature.com/articles/s41598-021-92677-z"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/ai-cert"
+to = "https://www.credly.com/badges/fdce465e-6fd0-4f2c-b6ca-91430871fa29?source=linked_in_profile"
+status = 302
+force = true
+
+[[redirects]]
+from = "https://ratik.me/patent"
+to = "https://patents.google.com/patent/US11915019B2"
+status = 302
+force = true
