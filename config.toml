@@ -45,10 +45,10 @@ weight = 3
 # URL = "portfolio"
 # weight = 4
 
-[[menu.nav]]
-name = "Involvement"
-URL = "testimonial"
-weight = 5
+# [[menu.nav]]
+# name = "Involvement"
+# URL = "testimonial"
+# weight = 5
 
 # [[menu.nav]]
 # name = "Pricing"
